@@ -28,8 +28,6 @@ using (HttpClient client = new HttpClient())
     bankHolidays.ForEach(x => Console.WriteLine(x.ToString()));
 }
 
-Console.WriteLine("Hello, World!");
-
 public class Event
 {
     public string title { get; set; }
